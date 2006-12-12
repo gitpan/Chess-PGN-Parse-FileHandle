@@ -11,11 +11,11 @@ Chess::PGN::Parse::FileHandle - Parse PGN from a FileHandle
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @ISA = qw(Chess::PGN::Parse);
 
 =head1 SYNOPSIS
@@ -35,7 +35,7 @@ our @ISA = qw(Chess::PGN::Parse);
 
 After getting tired of having to repeatedly C<gzip> and C<gunzip> PGN
 files to process through C<Chess::PGN::Parse>, I decided there had to 
-be an easier way.  Well, this is it.  This module is simple sublass
+be an easier way.  Well, this is it.  This module is simple subclass
 of C<Chess::PGN::Parse> that allows C<FILECHANDLE>s as a parameter.
 
 =head1 FUNCTIONS
@@ -74,7 +74,7 @@ L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Chess-PGN-Parse-FileHandle>.
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
 
-=head1 ACKNOWLEDGEMENTS
+=head1 ACKNOWLEDGMENTS
 
 Giuseppe Maxia for C<Chess::PGN::Parse>
 
